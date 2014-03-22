@@ -1,0 +1,131 @@
+/* **********************
+our mobile-first styles
+*********************** */
+
+/* **********************
+these styles will override
+our mobile-first styles for
+larger displays
+*********************** */
+
+@media only screen and (min-width:0px) {
+  /* Style adjustments for viewports 520px and over go here */
+      
+  form input {
+    font-family: "Arial", sans-serif;
+  }
+  body {
+    font-family: "Arial", sans-serif;
+    font-size: 100%;
+    line-height: 1em;
+    margin: 0 auto;
+    background: rgb(255, 255, 255);
+  }
+  .wrapper {
+    width: 100%;
+    position: relative;
+  }
+  body .wrapper{
+    min-width: 220px;
+    max-width:900px;
+    margin:0 auto;
+  }
+  header {
+    padding: 0 10%;
+    background: rgb(200, 200, 200);
+  }
+  section#main {
+    padding: 0 10%;
+    background: rgb(255, 255, 255);
+  }
+  footer {
+    clear: both;
+    padding: 0 10%;
+    background: rgb(200, 0, 0);
+  }
+  header nav {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: blue;
+  }
+  section#main .wrapper {
+    min-height: 500px;
+  }
+  section#main aside {
+    background: blue;
+    width: 25%;
+    float: left;
+  }
+  section#main article {
+    background: yellow;
+    width: 75%;
+    float: left;
+  }
+  section#main aside nav {
+    padding-top: 10%;
+  }
+  section#main aside nav ul {
+    background: green;
+  }
+  section#main aside nav ul li {
+  }
+  section#main article section#box1 {
+    width: 50%;
+    background: green;
+    float: left;
+  }
+  section#main article section#box2 {
+    width: 50%;
+    background: silver;
+    float: left;
+  }
+  section#main article section#box2 img.large {
+    width: 100%;
+    height: 200px;
+    background: red;
+  }
+  section#main article section#box2 img.thumb {
+    width: 32%;
+    height: 50px;
+    background: pink;
+  }
+  section#main article section#box {
+    width: 33.3%;
+    background: green;
+    float: left;
+  }
+  section#main article .box-clear {
+    width: 100%;
+    height: 1px;
+    clear: both;
+  }
+}
+@media only screen and (max-width:700px) {
+  section#main article section#box1 {
+    width: 100%;
+    clear: left;
+  }
+  section#main article section#box2 {
+    width: 100%;
+    clear: left;
+  }
+  section#main article section#box {
+    width: 100%;
+    clear: left;
+  }
+}
+@media only screen and (max-width:500px) {
+  section#main aside {
+    width: 100%;
+    clear: left;
+  }
+  section#main aside nav ul li {
+    width:100%;
+    text-align:center;
+  }
+  section#main article {
+    width: 100%;
+    clear: left;
+  }
+}
