@@ -17,20 +17,8 @@
             <div class="wrapper">
     		<h1>Vinohradska85</h1>
             <div class="background-title">Vinohradska85</div>
-            <q>...Your place to live</q>
-            <nav>
-                <ul>
-                    <li>CZ</li>
-                    <li>EN</li>
-                </ul>
-            </nav>
-            </div>
-    	</header>
-
-    	<section id="main">
-            <div class="wrapper">
-            <aside>
-                <nav>
+            
+            <nav class="main-menu">
                     <ul>
                         <li><a href="">home</a></li>
                         <li><a href="">home</a></li>
@@ -40,46 +28,75 @@
                         <li><a href="">home</a></li>
                         <li><a href="">home</a></li>
                     </ul>
-                </nav>
-            </aside>
-            <article>
+            </nav>
+
+            <nav class="lang-menu">
+                    <ul>
+                        <li>CZ</li>
+                        <li>EN</li>
+                    </ul>
+            </nav>
             
-            <section id="box1">
-                <h1>Nadpis</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Turpe inveniri aristoteli libidinem diis cupiditates omittendis summam depravate didicisse, alios, iudicant ingenii, synephebos animal optime horrida cumanum ex nostrum pondere adamare, involuta probatus placebit gravissimas lictores u
-                </p>
-                <p>
-                    triusque antiquitate alienum, carere, moderatius, admonere temperantia adquiescere homero monstruosi easque quosque quorum gravis me. Utrum maximi iudicare desistemus ipsarum audeam exaudita, mors erga quisquam permulta inflammati faciant dices ita ferentur eosdem. Quosvis quoque mi ferantur beatae, gratia unde diceret referta, accusantium ornamenta reque, percussit.
-                </p>
-            </section>
-            <section id="box2">
-                <img class="large" src="" />
-                <img class="thumb" src="" />
-                <img class="thumb" src="" />
-                <img class="thumb" src="" />
-            </section>
-            <div class="box-clear"></div>
-            <section id="box">
+            </div>
+    	</header>
+
+    	<section class="main js-background">
+            <div class="wrapper">
+            
+                <article class="box1">
+                    <div class="logo-element"></div>
+                    <h1>Nadpis</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Turpe inveniri aristoteli libidinem diis cupiditates omittendis summam depravate didicisse, alios, iudicant ingenii, synephebos animal optime horrida cumanum ex nostrum pondere adamare, involuta probatus placebit gravissimas lictores u
+                    </p>
+                    <div class="logo-element"></div>
+                    
+                </article>
+
+                <div class="bcg-buttons">
+                    <ul>
+                        <li class="js-bcg">0</li>
+                        <li class="js-bcg">1</li>
+                        <li class="js-bcg">2</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="text">
+            
+            <div class="wrapper">
+
+            <section class="box">
                 <h2>nadpis</h2>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Turpe inveniri aristoteli libidinem diis cupiditates omittendis summam depravate didicisse, alios    
                 </p>
+                <p class="more">
+                    >>> see more
+                </p>
             </section>
-            <section id="box">
+            <section class="box">
                 <h2>nadpis</h2>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Turpe inveniri aristoteli libidinem diis cupiditates omittendis summam depravate didicisse, alios    
                 </p>
+                <p class="more">
+                    >>> see more
+                </p>
             </section>
-            <section id="box">
+            <section class="box">
                 <h2>nadpis</h2>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Turpe inveniri aristoteli libidinem diis cupiditates omittendis summam depravate didicisse, alios    
+                </p>
+                <p class="more">
+                    >>> see more
                 </p>
             </section>
 
-            </article>
             </div>
     	</section>
 
@@ -88,11 +105,57 @@
     		<article>
                 <p>
                     address<br>
-                    contact
+                    contact<br>
+                    <br>
+                    address<br>
+                    contact<br>
+                    
                 </p>
             </article>
+
+            <p class="copyright">
+                All rights reserved &copy; 2014
+            </p>
+
             </div>
     	</footer>
+
+        <script>
+        $.fn.preload = function() {
+            this.each(function(){
+                $('<img/>')[0].src = this;
+            });
+        }
+
+        $( document ).ready(function() {
+            
+                var bcg = [
+                'images/bcg1.jpg',
+                'images/bcg2.jpg',
+                'images/bcg3.jpg',
+                ];   
+    
+                $(bcg).preload();
+
+                //change background every 10 seconds
+                var i = 0,
+                    auto = true;
+
+                setInterval(function(){
+                    if (auto){
+                        $(".js-background").css("background-image", "url('" + bcg[i%3] + "')");
+                        i++;
+                    }
+                },3000);
+
+                $(".js-bcg").click(function(){
+                    var value = $(this).text();
+                    $(".js-background").css("background-image", "url('" + bcg[value] + "')");
+                    auto = false;
+                });
+
+        });
+        </script>
 
     </body>
 </html>

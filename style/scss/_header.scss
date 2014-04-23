@@ -1,0 +1,31 @@
+header {
+	padding: 0 10%;
+	background: $red;
+
+	.wrapper{
+		height:6em;
+	}
+
+	.main-menu{
+		padding-top:2.5em;
+		float:left;
+		ul li{
+			display:inline-block;
+		}
+
+	}
+
+	.lang-menu{
+		padding-top:2.5em;
+		float:right;
+		ul li{
+			display:inline-block;
+		}
+
+	}
+
+
+
+
+
+}

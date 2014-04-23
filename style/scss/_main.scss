@@ -1,0 +1,88 @@
+.main {
+	padding: 0 10%;
+	
+	&.js-background{
+		background-image: url('../../images/bcg1.jpg');
+		background-position: 50% 50%;
+		background-size: cover;
+		@include transition(all, 1s, ease-in-out);
+	}	
+
+	.wrapper{
+		height: 500px;
+		overflow: hidden;
+	}
+
+	.box1{
+		text-align:center;
+		margin:2em 0 0;
+		padding:1em;
+		width:200px;
+		height:auto;
+		background:$green;
+		float:left;
+		
+		p{
+			text-align:justify;
+		}
+		
+		.logo-element{
+			height:2em;
+			width:2em;
+			background:pink;
+			margin:auto;
+		}
+	}
+
+	.bcg-buttons{
+		margin:2em 0 0;
+		float:right;
+
+		ul li{
+			text-align:center;
+			width:1em;
+			height:1em;
+			display:inline-block;
+			@include rounded(1em);
+			background:red;
+			margin:0 0.2em 1em;
+			text-indent:-99999px;
+		}
+	}
+
+
+}
+
+.text{
+	
+	padding: 0 10%;
+	//background: ;
+	
+	.wrapper{
+		overflow: hidden;
+	}
+
+	.box {
+		width: 33.3%;
+		float: left;
+		margin: 3em 0em;
+
+		h2{
+			margin:0em 2em 0em;
+			padding:3em 0em 0em;
+			border-bottom:1px solid black;
+		}
+
+		p{
+			padding:0.5em 2em 1em;
+			text-align:justify;
+
+		}
+
+		.more{
+			float:right;
+		}
+	}
+
+
+}
