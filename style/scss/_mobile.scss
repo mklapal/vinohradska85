@@ -1,4 +1,31 @@
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:850px) {
+
+	header {
+		.wrapper{
+			background-size: contain;
+		}
+	}
+
+	.text{
+		.box{
+			margin: 1em 0em;
+
+			h2{
+				margin:0em 0.425em 0em;
+				padding:3em 0em 0.2em;
+			}
+
+			p.box-text{
+				padding:0.5em 0.5em 1em;
+			}
+		}
+
+	}
+
+}
+
+
+@media only screen and (max-width:600px) {
 
 	header, footer, .main, .text {
 		padding: 0 2%;
@@ -9,11 +36,25 @@
 		}
 	}
 
+	header {
+		.wrapper{
+			background-size: contain;
+		}
+	}
+
+	footer {
+		
+		.wrapper{
+			background-size: contain;
+		}
+	}
+
 	.main{
 		.box1{
 			width:auto;
 			height:auto;
 			float:none;
+			min-height:100px;
 		}
 
 	}

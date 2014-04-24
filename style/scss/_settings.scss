@@ -1,12 +1,34 @@
 //fonts
-$font-xs:	1.0em;	//12px
-$font-s:	1.0em;	//14px
+$font-xs:	0.675em;	//12px
+$font-s:	0.85em;	//14px
 $font-m:	1.0em;	//16px
-$font-l:	1.0em;	//20px
-$font-xl:	1.0em;	//24px
-$font-xxl:	1.0em;	//30px
+$font-l:	1.125em;	//20px
+$font-xl:	1.25em;	//24px
+$font-xxl:	1.5em;	//30px
 
 $red:	#f00;
 $blue:	#00f;
 $green:	#0f0;
+
+$white: #fff;
+$black: #000;
+$green-light: rgb(216, 212, 201);
+$green-dark: #868a6f;
+$grey-background: rgb(216, 212, 201);
+$gold: rgb(186, 156, 10);
+$gold-opacity: rgba(186, 156, 10, 0.5);
+
+/*
+- podklady pro banner - výška 145b včetně světlého pruhu, kody barev - tmavá: 132 136 109, světlá: 216 212 201
+- prostřední pole - světlá 216 212 201
+- patička - pruh výška 140b, tmavá: 132 136 109 
+- grafické prvky - výška 29b, šířka 23b
+- zlatá barva - kod 186 156 10
+- zlaté linky - tl. 1b
+- font - PT Sans Narrow https://www.google.com/fonts/specimen/PT+Sans+Narrow
+- texty - do bloku, regular, 13 v boxu, 14 normálně
+- nadpisy - tučně, kurzíva - jestli to google umí?, 22
+- zlatý box 190x400, průhlednost 60% 
+- kolečka 13b
+*/
 

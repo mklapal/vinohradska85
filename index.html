@@ -11,29 +11,30 @@
         <!--<[endif]-->
         <script src="//code.jquery.com/jquery-1.9.1.js"></script>
         <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
     	<header>
             <div class="wrapper">
-    		<h1>Vinohradska85</h1>
-            <div class="background-title">Vinohradska85</div>
+    		<h1><a href="">Vinohradská85.cz</a></h1>
             
             <nav class="main-menu">
                     <ul>
-                        <li><a href="">home</a></li>
-                        <li><a href="">home</a></li>
-                        <li><a href="">home</a></li>
-                        <li><a href="">home</a></li>
-                        <li><a href="">home</a></li>
-                        <li><a href="">home</a></li>
-                        <li><a href="">home</a></li>
+                        <li><a href="" class="selected">home</a></li>
+                        <li><a href="">location</a></li>
+                        <li><a href="">sales</a></li>
+                        <li><a href="">photos</a></li>
+                        <li><a href="">standards</a></li>
+                        <li><a href="">info</a></li>
+                        <li><a href="">financing</a></li>
+                        <li><a href="">contact</a></li>
                     </ul>
             </nav>
 
             <nav class="lang-menu">
                     <ul>
-                        <li>CZ</li>
-                        <li>EN</li>
+                        <li><a href="">cz</a></li>
+                        <li><a href="">en</a></li>
                     </ul>
             </nav>
             
@@ -45,9 +46,9 @@
             
                 <article class="box1">
                     <div class="logo-element"></div>
-                    <h1>Nadpis</h1>
+                    <h1>Vinohradská 85</h1>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Turpe inveniri aristoteli libidinem diis cupiditates omittendis summam depravate didicisse, alios, iudicant ingenii, synephebos animal optime horrida cumanum ex nostrum pondere adamare, involuta probatus placebit gravissimas lictores u
+                        The residential project VINOHRADSKA 85 is located in the prestigious, elegant and well-known residential quarter of Vinohrady in the immediate proximity of the City centre. Just 10 minutes walk you have the Wenceslas Square, one of the main city squares with the National Museum and the Prague State Opera, and within a short-range of 200m walking distance you can find a several public parks such as the most pleasant “Riegrovy sady”.
                     </p>
                     <div class="logo-element"></div>
                     
@@ -70,30 +71,33 @@
             <div class="wrapper">
 
             <section class="box">
-                <h2>nadpis</h2>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Turpe inveniri aristoteli libidinem diis cupiditates omittendis summam depravate didicisse, alios    
+                <h2>Modern Apartments</h2>
+                <p class="box-text">
+                In total 21 apartments and 2 commercial spaces have been created due to the fact that the whole building has been carefully refurbished in modern apartments of high standard and different types and sizes. Living spaces are with the south orientation to the park and have a full day-light.
                 </p>
                 <p class="more">
-                    >>> see more
+                    <a href="">see more >>> </a>
                 </p>
             </section>
+
             <section class="box">
-                <h2>nadpis</h2>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Turpe inveniri aristoteli libidinem diis cupiditates omittendis summam depravate didicisse, alios    
+                <h2>In the Hearth of Prague</h2>
+                <p class="box-text">
+                VINOHRADSKA 85 is an historical building from the late 19th century   with direct and marvellous view from south to the park Svatopluk Čech's, Vinohradská Avenue and Vinohrady Water Tower.
+                <img class="img-center" src="content/mapa.png" alt="map" />
                 </p>
                 <p class="more">
-                    >>> see more
+                    <a href="">see more >>> </a>
                 </p>
             </section>
+            
             <section class="box">
-                <h2>nadpis</h2>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Turpe inveniri aristoteli libidinem diis cupiditates omittendis summam depravate didicisse, alios    
+                <h2>The Highest Standard</h2>
+                <p class="box-text">
+                The renovation is done to the highest standard with regard to the original architectural details like doors, windows, iron and tile works etc. The goal is to keep the ambiance and feeling of the elegant Art Nouveau style.  High ceilings and large windows let in plenty of natural light which adds to the overall quality of the entire project.
                 </p>
                 <p class="more">
-                    >>> see more
+                    <a href="">see more >>> </a>
                 </p>
             </section>
 
@@ -103,13 +107,13 @@
     	<footer>
             <div class="wrapper">
     		<article>
-                <p>
-                    address<br>
-                    contact<br>
+                <p class="address">
+                    E: info@vinohradska85.cz<br>
+                    T: 777 123 123 123<br>
                     <br>
-                    address<br>
-                    contact<br>
-                    
+                    Vinohradská 85<br>
+                    150 00 Praha<br>
+                    Česká republika
                 </p>
             </article>
 
@@ -128,6 +132,10 @@
         }
 
         $( document ).ready(function() {
+
+                $('a, li').hover(function () {
+                    $(this).toggleClass("active");
+                });
             
                 var bcg = [
                 'images/bcg1.jpg',

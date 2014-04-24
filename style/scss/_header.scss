@@ -1,25 +1,73 @@
 header {
 	padding: 0 10%;
-	background: $red;
+	background: $green-dark url('../../images/header_background.jpg') repeat-x;
+	height:145px;
 
 	.wrapper{
-		height:6em;
+		background: transparent url('../../images/header_logo.png') no-repeat;
+		background-position: 50% 30%;
+		height:145px;
+	}
+
+	h1{
+		display:block;
+		width:100%;
+		height:112px;
+		a{
+			display:block;
+			width:100%;
+			height:112px;
+			text-indent: -9999px;
+		}
 	}
 
 	.main-menu{
-		padding-top:2.5em;
+		padding-top:0.5em;
 		float:left;
 		ul li{
 			display:inline-block;
+			margin:0 1em 0 0;
 		}
 
+		a{
+			//font-weight:bold;
+			text-decoration:none;
+			color:$black;
+			font-size:$font-m;
+		}
+		a:hover{
+			color:$gold;
+		}
+
+		a.active,
+		a.selected
+		{
+			color:$gold;
+		}
+			
 	}
 
 	.lang-menu{
-		padding-top:2.5em;
+		padding-top:0.5em;
 		float:right;
 		ul li{
 			display:inline-block;
+			margin:0 0 0 0.5em;
+		}
+		a{
+			//font-weight:bold;
+			text-decoration:none;
+			color:$black;
+			font-size:$font-m;
+		}
+		a:hover{
+			color:$gold;
+		}
+
+		a.active,
+		a.selected
+		{
+			color:$gold;
 		}
 
 	}

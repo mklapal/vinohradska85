@@ -19,18 +19,27 @@
 		padding:1em;
 		width:200px;
 		height:auto;
-		background:$green;
+		background:$gold-opacity;
 		float:left;
 		
+		h1{
+			text-align:center;
+			font-size:$font-xl;
+			padding:0 0 0.5em 0;
+		}
+
 		p{
 			text-align:justify;
+			font-size:$font-s;
 		}
 		
 		.logo-element{
 			height:2em;
 			width:2em;
-			background:pink;
-			margin:auto;
+			background: url('../../images/graphic_black.png') no-repeat transparent;
+			background-position: 50% 50%;
+			background-size: contain;
+			margin: 0.5em auto;	
 		}
 	}
 
@@ -44,9 +53,16 @@
 			height:1em;
 			display:inline-block;
 			@include rounded(1em);
-			background:red;
+			background:$white;
 			margin:0 0.2em 1em;
 			text-indent:-99999px;
+			border:1px solid $black;
+		}
+
+		.active,
+		.selected
+		{
+			background:$gold;
 		}
 	}
 
@@ -56,7 +72,7 @@
 .text{
 	
 	padding: 0 10%;
-	//background: ;
+	background: $grey-background;
 	
 	.wrapper{
 		overflow: hidden;
@@ -68,19 +84,38 @@
 		margin: 3em 0em;
 
 		h2{
-			margin:0em 2em 0em;
-			padding:3em 0em 0em;
-			border-bottom:1px solid black;
+			font-weight:bold;
+			font-size:$font-xl;
+			margin:0em 1.625em 0em;
+			padding:3em 0em 0.2em;
+			border-bottom:1px solid $gold;
 		}
 
-		p{
+		p.box-text{
 			padding:0.5em 2em 1em;
 			text-align:justify;
+			min-height: 220px;
 
+		}
+
+		.img-center{
+			display:block;
+			margin:2em auto 0;
 		}
 
 		.more{
 			float:right;
+			height:auto;
+			padding:0 2em 0 0;
+
+			a{
+				text-decoration:none;
+				font-weight:bold;
+				color:$black;
+			}
+			a:hover{
+				color:$gold;
+			}
 		}
 	}
 

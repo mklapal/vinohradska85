@@ -1,14 +1,22 @@
 footer {
 	padding: 0 10%;
-	background: $red;
+	background: $green-dark;
+	height:140px;
 
 	.wrapper{
-		height: auto;
+		background: transparent url('../../images/footer_logo.png') no-repeat;
+		background-position: 50% 30%;
+		height:140px;
+	}
+
+	.address{
+		padding: 1em 0 0 0;
 	}
 
 	.copyright{
-		padding:2.5em 0 1em;
+		padding:0em 0 0em;
 		text-align:center;
+		color:$grey-background;
 	}
 
 
