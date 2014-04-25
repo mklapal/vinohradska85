@@ -1,3 +1,11 @@
+//how to run
+/*
+
+powershell
+cd 'C:\Program Files\VertrigoServ229\www\vinohradska85\style'
+sass --watch scss:css --style compressed
+*/
+
 //fonts
 $font-xs:	0.675em;	//12px
 $font-s:	0.85em;	//14px
@@ -17,6 +25,8 @@ $green-dark: #868a6f;
 $grey-background: rgb(216, 212, 201);
 $gold: rgb(186, 156, 10);
 $gold-opacity: rgba(186, 156, 10, 0.5);
+
+
 
 /*
 - podklady pro banner - výška 145b včetně světlého pruhu, kody barev - tmavá: 132 136 109, světlá: 216 212 201

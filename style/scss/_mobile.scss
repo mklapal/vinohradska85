@@ -4,6 +4,12 @@
 		.wrapper{
 			background-size: contain;
 		}
+
+
+
+		.main-menu{
+			padding:0.5em 0 0 0em;
+		}
 	}
 
 	.text{
@@ -32,13 +38,34 @@
 		height: auto;
 
 		.wrapper{
-			height: auto;
+			
 		}
 	}
 
 	header {
+		background: $green-dark;
 		.wrapper{
 			background-size: contain;
+			height:auto;
+		}
+
+		h1.header-logo-left{
+			width:100%;
+			height:auto;
+			float:none;
+		}
+
+		h2.header-logo-right{
+			display:none;
+		}
+
+		.main-menu{
+			float:none;
+			text-align:center;
+			width:100%;
+			ul{
+			padding:1em 0;
+			}
 		}
 	}
 
@@ -46,7 +73,12 @@
 		
 		.wrapper{
 			background-size: contain;
+			background-position: 50% 30%;
+			background-size: 50%;
+			height:auto;
 		}
+
+
 	}
 
 	.main{
