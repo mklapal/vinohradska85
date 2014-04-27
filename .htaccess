@@ -1,0 +1,35 @@
+# stranka s chybovym hlasenim pro chybu 404 - nenalezen
+# ErrorDocument 404 /layout/404.html
+# ErrorDocument 403 /layout/403.html
+
+# nastaveni vychozi stranky adresare
+#DirectoryIndex index.php index.html
+
+#adresy - maskování
+RewriteEngine On
+
+#přepis na web s www
+#Options +FollowSymlinks
+#RewriteCond %{HTTP_HOST} ^.cz
+#RewriteRule (.*) http://www..cz/$1 [R=301,QSA,L]
+
+#company
+
+RewriteRule		^poloha			/vinohradska85/pages/location.php
+RewriteRule		^location		/vinohradska85/pages/location_en.php
+RewriteRule		^prodej			/vinohradska85/pages/sales.php
+RewriteRule		^sales			/vinohradska85/pages/sales_en.php
+RewriteRule		^fotografie		/vinohradska85/pages/photos.php
+RewriteRule		^photos			/vinohradska85/pages/photos_en.php
+RewriteRule		^standardy		/vinohradska85/pages/standards.php
+RewriteRule		^standards		/vinohradska85/pages/standards_en.php
+RewriteRule		^informace		/vinohradska85/pages/info.php
+RewriteRule		^info			/vinohradska85/pages/info_en.php
+RewriteRule		^finance		/vinohradska85/pages/financing.php
+RewriteRule		^financing		/vinohradska85/pages/financing_en.php
+RewriteRule		^kontakty		/vinohradska85/pages/contact.php
+RewriteRule		^contact		/vinohradska85/pages/contact_en.php
+
+RewriteRule		^/en			/vinohradska85/index_en.php
+#RewriteRule		^/				/vinohradska85/index.php
+

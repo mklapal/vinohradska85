@@ -1,0 +1,48 @@
+.admin-text{
+	min-height: 300px;
+	padding: 3% 10%;
+	background:$white;
+
+	.wrapper{
+		
+	}
+
+	.login-box{
+		width:20em;
+		background:$green-dark;
+		margin:5em auto 5em;
+		padding:1em;
+
+		p{
+			text-align:left;
+			color:$white;
+		}
+		input{
+			width:100%;
+			font-size:$font-l;
+		}
+		input[value="submit"]{
+			text-align: center;
+		}
+
+	}
+
+	h1{
+		font-size: $font-xxl;
+		margin:1em auto 1em;
+	}
+
+	.info{
+		margin:1em 0;
+	}
+
+	table{
+		margin:0 1em;
+		td{
+			padding:3px;
+		}
+		.flat-no{
+			font-weight: bold;
+		}
+	}
+}

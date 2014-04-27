@@ -26,6 +26,8 @@
 			text-align:center;
 			font-size:$font-xl;
 			font-weight:bold;
+			font-family: 'PT Sans', 'sans-serif';
+			font-style: italic;
 			padding:0 0 0.5em 0;
 		}
 
@@ -84,22 +86,43 @@
 		float: left;
 		margin: 3em 0em;
 
-		h2{
-			font-weight:bold;
-			font-size:$font-xl;
-			margin:0em 1.625em 0em 1.625em;
+		.header{
+			margin:0em 20px 0em 20px;
 			//@include calc(margin-right, "33.3% - 30px");
 			padding:3em 0em 0.2em;
 			border-bottom:1px solid $gold;
-			background: url('../../images/znak_gold.svg') no-repeat transparent;
-			background-position: right 90%;
-			background-size:30px;
+			@include clearfix;	
+
+			h2{
+				float:left;
+				font-weight:bold;
+				font-size:$font-xl;
+				font-family: 'PT Sans', 'sans-serif';
+				font-style: italic;
+				padding-top:1em;
+				max-width:75%;
+				//background: url('../../images/znak_gold.svg') no-repeat transparent;
+				//background-position: right 90%;
+				//background-size:30px;
+			}
+
+			.logo-element{
+				float:right;
+				position:relative;
+				bottom:-10px;
+				height:2em;
+				width:2em;
+				background: url('../../images/znak_gold.svg') no-repeat $grey-background;
+				background-position: right 100%;
+				//background-size: contain;
+				//margin: 0.5em auto;	
+			}
 		}
 
 		p.box-text{
-			padding:0.5em 2em 1em;
+			padding:0.5em 20px 0em;
 			text-align:justify;
-			min-height: 220px;
+			min-height: 200px;
 
 		}
 
@@ -111,10 +134,11 @@
 		.more{
 			float:right;
 			height:auto;
-			padding:0 2em 0 0;
+			padding:0 20px 0 0;
 
 			a{
 				text-decoration:none;
+				font-style: italic;
 				font-weight:bold;
 				color:$black;
 				border-bottom:1px solid $gold;
