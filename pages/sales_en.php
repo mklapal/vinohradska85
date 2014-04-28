@@ -1,5 +1,11 @@
-<?php require("../config.php"); ?>
-<?php require("../pages/template_header.php"); ?>
+<?php 
+
+require("../config.php");
+$lang = "en";
+$menu = "sales";
+require("../pages/template_header_en.php");
+
+?>
 
         <section class="text">
             
@@ -97,4 +103,4 @@ echo ('
             </div>
         </section>
 
-<?php require("../pages/template_footer.php"); ?>
+<?php require("../pages/template_footer_en.php"); ?>

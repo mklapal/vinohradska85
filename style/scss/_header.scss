@@ -2,9 +2,22 @@ header {
 	padding: 0 10%;
 	background: $green-dark url('../../images/header_background.png') repeat-x;
 	height:145px;
+	border-bottom:1px solid $white;
 
 	.wrapper{
 		height:145px;
+
+		.hanka-hack-background{
+			display:block;
+			position:relative;
+			left:0px;
+			bottom:-7.5em;
+			width:12em;
+			height:20em;
+			background: url('../../images/znak_white.svg') no-repeat transparent;
+			background-position: center top;
+			background-size: 100%;
+		}
 	}
 
 	h1.header-logo-left{
@@ -38,6 +51,7 @@ header {
 	}
 
 	.main-menu{
+		z-index:2;
 		padding:0.5em 0 0 13em;
 		float:left;
 		ul li{

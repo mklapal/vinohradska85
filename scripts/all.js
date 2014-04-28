@@ -66,4 +66,92 @@
                 });
                 */
 
+                $('.js-section').css("display", "none");
+                $('.js-position').css("display", "block");
+
+                $('.js-btn-position').click(function(){
+                    $('.js-btn-position').removeClass("selected");
+                    $('.js-section').css("display", "none");
+                    var section = $(this).attr("href").substring(1);
+                    console.log(section);
+                    $('.js-'+section).css("display", "block");
+                    $(this).addClass("selected");
+                });
+
+                //form function
+                function validateEmail($email) {
+                  var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+                  if( !emailReg.test( $email ) ) {
+                    return false;
+                  } else {
+                    if ($email.length == 0){
+                        return false;
+                    }
+                    return true;
+                  }
+                }
+
+                //form
+                $('.js-hint').css("display", "none");
+
+                $('.js-send').submit(function(e){
+
+                    //sending
+                    e.preventDefault();
+
+                    $('.js-hint').css("display", "none");
+
+                    var status = true;
+                    //validation
+                    if ($('.js-form-name').val().length <= 3){
+                        status = false;
+                        $('.js-hint-name').css("display", "block");
+                    }
+                    if ($('.js-form-phone').val().length <= 9){
+                        status = false;
+                        $('.js-hint-phone').css("display", "block");
+                    }
+                    if (!validateEmail($('.js-form-email').val())){
+                        status = false;
+                        $('.js-hint-email').css("display", "block");
+                    }
+                    if ($('.js-form-text').val().length <= 10){
+                        status = false;
+                        $('.js-hint-text').css("display", "block");
+                    }
+                    if ($('.js-form-check').val() !== "nospam"){
+                        status = false;
+                    }
+                    
+                    console.log(status);
+
+                    if (status){
+                        var name,
+                            phone,
+                            email,
+                            text;
+
+                        $.ajax({
+                            type: "POST",
+                            url: "http://localhost:8080/vinohradska85/pages/function-email.php",
+                            data: $(".js-send").serialize(), // serializes the form's elements.
+                            success: function(data)
+                            {
+                                console.log(data); // show response from the php script.
+                                if (data === "true"){
+                                    $('.js-send').css("display", "none");
+                                    $('.js-sent').css("display", "block");
+                                } else {
+                                    $('.js-send').css("display", "none");
+                                    $('.js-error').css("display", "block");
+                                }
+                            }
+                        });
+
+                        return false; // avoid to execute the actual submit of the form.
+                        
+                    }
+
+                });
+
         });

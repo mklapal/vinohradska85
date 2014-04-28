@@ -1,5 +1,11 @@
-<?php require("../config.php"); ?>
-<?php require("../pages/template_header.php"); ?>
+<?php 
+
+require("../config.php");
+$lang = "en";
+$menu = "sales";
+require("../pages/template_header.php");
+
+?>
 
         <section class="text">
             

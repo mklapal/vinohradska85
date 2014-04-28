@@ -23,21 +23,21 @@
             
             <nav class="main-menu">
                     <ul>
-                        <li><a href="" class="selected">home</a></li>
-                        <li><a href="">location</a></li>
-                        <li><a href="">sales</a></li>
-                        <li><a href="">photos</a></li>
-                        <li><a href="">standards</a></li>
-                        <li><a href="">info</a></li>
-                        <li><a href="">financing</a></li>
-                        <li><a href="">contact</a></li>
+                        <li><a href="<?php echo URL; ?>/" class="<?php if($menu === "index") { echo "selected"; } ?>">home</a></li>
+                        <li><a href="<?php echo URL; ?>/location" class="<?php if($menu === "location") { echo "selected"; } ?>">location</a></li>
+                        <li><a href="<?php echo URL; ?>/sales" class="<?php if($menu === "sales") { echo "selected"; } ?>">sales</a></li>
+                        <li><a href="<?php echo URL; ?>/photos" class="<?php if($menu === "photos") { echo "selected"; } ?>">photos</a></li>
+                        <li><a href="<?php echo URL; ?>/standards" class="<?php if($menu === "standards") { echo "selected"; } ?>">standards</a></li>
+                        <li><a href="<?php echo URL; ?>/info" class="<?php if($menu === "info") { echo "selected"; } ?>">info</a></li>
+                        <li><a href="<?php echo URL; ?>/financing" class="<?php if($menu === "financing") { echo "selected"; } ?>">financing</a></li>
+                        <li><a href="<?php echo URL; ?>/contact" class="<?php if($menu === "contact") { echo "selected"; } ?>">contact</a></li>
                     </ul>
             </nav>
 
             <nav class="lang-menu">
                     <ul>
-                        <li><a href="">cz</a></li>
-                        <li><a href="" class="selected">en</a></li>
+                        <li><a href="/" class="<?php if($lang === "cz") { echo "selected"; } ?>">cz</a></li>
+                        <li><a href="/en" class="<?php if($lang === "en") { echo "selected"; } ?>">en</a></li>
                     </ul>
             </nav>
             

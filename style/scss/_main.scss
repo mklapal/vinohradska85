@@ -26,7 +26,7 @@
 			text-align:center;
 			font-size:$font-xl;
 			font-weight:bold;
-			font-family: 'PT Sans', 'sans-serif';
+			font-family: 'PT Sans';
 			font-style: italic;
 			padding:0 0 0.5em 0;
 		}
@@ -76,9 +76,11 @@
 	
 	padding: 0 10%;
 	background: $grey-background;
+	@include clearfix;
 	
 	.wrapper{
 		overflow: hidden;
+		margin:0 0 3em 0;
 	}
 
 	.box {
@@ -97,7 +99,7 @@
 				float:left;
 				font-weight:bold;
 				font-size:$font-xl;
-				font-family: 'PT Sans', 'sans-serif';
+				font-family: 'PT Sans';
 				font-style: italic;
 				padding-top:1em;
 				max-width:75%;
@@ -148,6 +150,96 @@
 			}
 		}
 	}
+
+	.left-side{
+		width:12em;
+		padding:1.2em 1em 0 0;
+		height:auto;
+		min-height:30em;
+		float:left;
+
+		ul li{
+			color:$black;
+			padding:0.2em 0;
+			a{
+				text-decoration:none;
+				color:$black;
+				text-transform: capitalize;
+			}
+			a:hover, a.selected{
+				color:$gold;
+			}
+		}
+
+		.address{
+			margin:10em 0;
+
+			img.img-left{
+				margin:1em 0 1em;
+				clear:both;
+			}
+
+		}
+
+	}
+
+	.right-side{
+		width:auto;
+		height:auto;
+		margin:0 0 1em 13em;
+
+		.header{
+			border-bottom:1px solid $gold;
+			font-size: $font-xxl;
+			font-weight:bold;
+			margin:1em 0 1em;
+			padding:0 0 0.2em 0;
+			//@include clearfix;	
+
+			h1{
+				font-family: 'PT Sans';
+				font-style: italic;
+				max-width:75%;
+				//background: url('../../images/znak_gold.svg') no-repeat transparent;
+				//background-position: right 90%;
+				//background-size:30px;
+			}
+
+			.logo-element{
+				float:right;
+				position:relative;
+				top:-30px;
+				height:1.5em;
+				width:1.5em;
+				background: url('../../images/znak_gold.svg') no-repeat $grey-background;
+				background-position: right 100%;
+				//background-size: contain;
+				//margin: 0.5em auto;	
+			}
+		}
+
+		h2{
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+
+		p{
+			margin:0 0 1em 0;
+			text-align: justify;
+			padding-top:0.6em;
+		}
+
+		img.full-size{
+			text-align:center;
+			width:100%;
+			margin:1em 0 0 0;
+		}
+
+
+
+
+	}
+
 
 
 }
