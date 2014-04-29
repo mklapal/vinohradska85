@@ -42,11 +42,14 @@ if (isset($_GET['info']) && $_GET["info"] === "updated"){
 <form action="sales_update.php" method="POST">
 <?php
 
-$file = 'sales.xml';
+if (file_exists('flats.json'))
+  {
+  $data = json_decode(file_get_contents('flats.json'), true);
+}  else {
+  $data = null;
+}
 
-$xml = simplexml_load_file($file);
-
-foreach ($xml as $iter) {
+foreach ($data['flats'] as $item) {
     
    //print_r($iter);
  
@@ -58,19 +61,17 @@ foreach ($xml as $iter) {
    <td>Status EN</td>
    <td>Cena CZ</td>
    <td>Cena EN</td>
-   <td>Style</td>
    <td>Popisek CZ</td>
    <td>Popisek EN</td>
    </tr>
    <tr>
-   <td class="flat-no">'.$iter["number"].'</td>
-   <td><input name="status['.$iter["number"].'][cs]" value="'.$iter->status[0].'"></td>
-   <td><input name="status['.$iter["number"].'][en]" value="'.$iter->status[1].'"></td>
-   <td><input name="price['.$iter["number"].'][cs]" value="'.$iter->price[0].'"></td>
-   <td><input name="price['.$iter["number"].'][en]" value="'.$iter->price[1].'"></td>
-   <td><input name="style['.$iter["number"].']" value="'.$iter->style.'"></td>
-   <td><input name="description['.$iter["number"].'][cs]" value="'.$iter->description[0].'"></td>
-   <td><input name="description['.$iter["number"].'][en]" value="'.$iter->description[1].'"></td>
+   <td class="flat-no">'.$item["number"].'</td>
+   <td><input name="'.$item["number"].'/status_cs" value="'.$item['status_cs'].'"></td>
+   <td><input name="'.$item["number"].'/status_en" value="'.$item['status_en'].'"></td>
+   <td><input name="'.$item["number"].'/price_cs" value="'.$item['price_cs'].'"></td>
+   <td><input name="'.$item["number"].'/price_en" value="'.$item['price_en'].'"></td>
+   <td><input name="'.$item["number"].'/note_cs" value="'.$item['note_cs'].'"></td>
+   <td><input name="'.$item["number"].'/note_en" value="'.$item['note_en'].'"></td>
    </tr>
    </table>
    ');

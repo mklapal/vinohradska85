@@ -13,14 +13,6 @@ require("../pages/template_header_en.php");
 
                 <div class="left-side">
 
-                    <p class="address">
-                    <img class="img-left" src="<?php echo(URL); ?>/content/mapa.png" alt="map" />
-                    <br>
-                    Vinohradská 1193/85<br>
-                    Praha 2 - Vinohrady<br>
-                    Czech Republic
-                    </p>
-
                 </div>
 
                 <div class="right-side">

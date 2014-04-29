@@ -1,11 +1,21 @@
-@media only screen and (max-width:850px) {
+@media only screen and (max-width:900px) {
 
 	header {
 		.wrapper{
 			background-size: contain;
+
+			.hanka-hack-background{
+				display:block;
+				bottom:-9.5em;
+			}
+
 		}
 
-
+		&.homepage{
+			.hanka-hack-background{
+				display:none;
+			}
+		}
 
 		.main-menu{
 			padding:0.5em 0 0 0em;
@@ -38,7 +48,7 @@
 }
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:650px) {
 
 	header, footer, .main, .text {
 		padding: 0 2%;
@@ -54,6 +64,11 @@
 		.wrapper{
 			background-size: contain;
 			height:auto;
+
+			.hanka-hack-background{
+				display:none;
+			}
+
 		}
 
 		h1.header-logo-left{
@@ -117,12 +132,18 @@
 		.left-side{
 			width:100%;
 			padding:1em 0;
-			background:red;
+			//background:red;
 			float:none;
+			min-height: 2em;
+			text-align:center;
+
+			p.address{
+				display:none;
+			}
 		}
 
 		.right-side{
-			background:blue;
+			//background:blue;
 			margin:1em 0em;
 		}
 

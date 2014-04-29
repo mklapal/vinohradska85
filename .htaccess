@@ -30,6 +30,6 @@ RewriteRule		^financing		/vinohradska85/pages/financing_en.php
 RewriteRule		^kontakty		/vinohradska85/pages/contact.php
 RewriteRule		^contact		/vinohradska85/pages/contact_en.php
 
-RewriteRule		^/en			/vinohradska85/index_en.php
+RewriteRule		^en				/vinohradska85/index_en.php
 #RewriteRule		^/				/vinohradska85/index.php
 

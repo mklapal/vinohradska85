@@ -3,6 +3,7 @@
 require("config.php");
 $lang = "en";
 $menu = "index";
+$homepage = true;
 require("pages/template_header_en.php");
 
 ?>

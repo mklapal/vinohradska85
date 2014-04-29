@@ -7,7 +7,7 @@
 
         $( document ).ready(function() {
 
-                $('a, li').hover(function () {
+                $('a, li, tr').hover(function () {
                     $(this).toggleClass("active");
                 });
             
@@ -92,32 +92,32 @@
                 }
 
                 //form
-                $('.js-hint').css("display", "none");
+                $('.js-info').css("display", "none");
 
                 $('.js-send').submit(function(e){
 
                     //sending
                     e.preventDefault();
 
-                    $('.js-hint').css("display", "none");
+                    $('.js-hint').removeClass("wrong");
 
                     var status = true;
                     //validation
                     if ($('.js-form-name').val().length <= 3){
                         status = false;
-                        $('.js-hint-name').css("display", "block");
+                        $('.js-hint-name').addClass("wrong");
                     }
                     if ($('.js-form-phone').val().length <= 9){
                         status = false;
-                        $('.js-hint-phone').css("display", "block");
+                        $('.js-hint-phone').addClass("wrong");
                     }
                     if (!validateEmail($('.js-form-email').val())){
                         status = false;
-                        $('.js-hint-email').css("display", "block");
+                        $('.js-hint-email').addClass("wrong");
                     }
                     if ($('.js-form-text').val().length <= 10){
                         status = false;
-                        $('.js-hint-text').css("display", "block");
+                        $('.js-hint-text').addClass("wrong");
                     }
                     if ($('.js-form-check').val() !== "nospam"){
                         status = false;
@@ -148,10 +148,10 @@
                             }
                         });
 
-                        return false; // avoid to execute the actual submit of the form.
-                        
+                        return false; // avoid to execute the actual submit of the form.   
                     }
-
                 });
 
+                $("a.js-onpage").smoothScroll();
+                
         });

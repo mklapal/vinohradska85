@@ -20,6 +20,14 @@ header {
 		}
 	}
 
+	&.homepage{
+		border-bottom:0px solid $white;
+		
+		.hanka-hack-background{
+			display:none;
+		}
+	}
+
 	h1.header-logo-left{
 		display:block;
 		float:left;

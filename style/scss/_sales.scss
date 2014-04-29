@@ -1,0 +1,109 @@
+.sales{
+
+	.right-side{
+
+		img.pdf-icon{
+			padding:0.5em 0 0 0;
+		}
+
+		table.sales-table{
+			width:100%;
+			margin-bottom:3em;
+
+			tr:first-child td{
+				font-weight:bold;
+			}
+
+			tr{
+				border-bottom:1px solid $white;
+
+				&.active{
+					background:$white;
+				}
+			}
+
+			td{
+				padding:0px 5px 5px;
+
+				.left{
+					text-align:left;
+				}
+				.right{
+					text-align:right;
+				}
+				.center{
+					text-align:center;
+				}
+
+				a{
+					color:$black;
+				}
+				a:hover{
+					color:$gold;
+				}
+					
+			}
+
+		}
+
+		.flat{
+			border-top:1px solid $gold;
+			@include clearfix;
+			.image{
+				padding:1em 0;
+				float:left;
+				width:50%;
+				img{
+					width:100%;
+				}
+			}
+
+			.data{
+				padding:1em 0 1em 3em;
+				float:left;
+
+				h1{
+					font-size:$font-xxxl;
+					font-weight:bold;
+					font-family: 'PT Sans';
+					font-style: italic;
+					line-height: 1.5em;
+				}
+
+				table{
+
+					tr{
+
+
+						td{
+							width:6em;
+
+						}
+
+						td:first-child{
+							font-weight:bold;
+							padding:0 1em 0 0;
+						}
+
+						td.download{
+							padding:0.5em 0 0 0;
+							a{
+								color:$black;
+							}
+							a:hover{
+								color:$gold;
+							}
+						}
+
+					}
+
+				}
+			}
+		}
+
+
+
+	}
+
+
+}

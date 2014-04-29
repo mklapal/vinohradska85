@@ -181,6 +181,21 @@
 
 		}
 
+		p{
+			text-align:justify;
+			font-size:$font-s;
+			padding:0 0 1em 0;
+		}
+		
+		.logo-element{
+			height:2em;
+			width:2em;
+			background: url('../../images/znak_black.svg') no-repeat transparent;
+			background-position: 50% 50%;
+			background-size: contain;
+			margin: 0.5em auto;	
+		}
+
 	}
 
 	.right-side{
@@ -235,6 +250,21 @@
 			margin:1em 0 0 0;
 		}
 
+
+		a.standards-link{
+			text-align:right;
+			float:right;
+			margin:0em 0 1em;
+			padding:0em 0 0;
+			text-decoration:none;
+			font-style: italic;
+			font-weight:bold;
+			color:$black;
+			border-bottom:1px solid $gold;
+			&:hover{
+				color:$gold;
+			}
+		}
 
 
 

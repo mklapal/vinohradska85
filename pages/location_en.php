@@ -21,7 +21,9 @@ require("../pages/template_header_en.php");
                     </ul>
 
                     <p class="address">
-                    <img class="img-left" src="<?php echo(URL); ?>/content/mapa.png" alt="map" />
+                    <a href="https://www.google.com/maps/preview" target="_blank">
+                        <img class="img-left" src="<?php echo(URL); ?>/content/mapa.png" alt="map" />
+                    </a>
                     <br>
                     Vinohradská 1193/85<br>
                     Praha 2 - Vinohrady<br>
@@ -39,7 +41,7 @@ require("../pages/template_header_en.php");
                     </div>
 
                     <p>
-                    The residential project VINOHRADSKÁ 85 is located on the main east-west avenue of Vinohrady, Vinohradská Avenue, leading from Wenceslas Square to Žižkov and Strašnice,  in one of Prague’s most reputed residential and high-living areas in the city call Vinohrady. The residence VINOHRADSKÁ 85 is facing directly to the nice and pleasant park Svatopluka Čecha and is really close to the main green space in the area, “Riegrovy sady”.
+                    The residential project VINOHRADSKÁ 85 is located on the main east-west avenue of Vinohrady, <strong>Vinohradská Avenue</strong>, leading from Wenceslas Square to Žižkov and Strašnice,  in one of Prague’s most reputed residential and high-living areas in the city call <strong>Vinohrady</strong>. The residence VINOHRADSKÁ 85 is facing directly to the nice and pleasant park Svatopluka Čecha and is really close to the main green space in the area, “Riegrovy sady”.
                     </p>
                     <p>
                     The square of “Jiřího z Poděbrad” with the modern and interesting church by Jože Plečnik built in 1932 is just 200 meters far, as well as “náměstí Míru”, the main square of Prague 2, with the Vinohrady Theatre and Gothic  Revival Saint Ludmila Church.

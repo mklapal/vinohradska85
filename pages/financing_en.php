@@ -13,19 +13,10 @@ require("../pages/template_header_en.php");
 
                 <div class="left-side">
 
-                    <p class="address">
-                    <img class="img-left" src="<?php echo(URL); ?>/content/mapa.png" alt="map" />
-                    <br>
-                    Vinohradská 1193/85<br>
-                    Praha 2 - Vinohrady<br>
-                    Czech Republic
-                    </p>
-
                 </div>
 
                 <div class="right-side">
 
-                <section class="js-position js-section">
                     <div class="header">
                     <h1>Financing</h1>
                     <div class="logo-element"></div>
@@ -58,7 +49,6 @@ require("../pages/template_header_en.php");
 						Within 30 days from signing of the Pre-purchase Contract is signed the Purchase Contract. Before the signing of this contract, the Buyer is obliged to pay the remaining part of the purchase price onto the escrow account.
 					</p>
 
-				</section>
 
 				<?php require("template_form_en.php"); ?>
 

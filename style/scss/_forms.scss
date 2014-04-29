@@ -6,6 +6,42 @@
 
 	}
 
-	span.js-hint{
-		color:$red;
+	.js-hint{
+		//color:$red;
+	}
+
+	.form-left{
+		float:left;
+		width:35%;
+
+		input{
+			width:90%;
+			border:1px solid $gold;
+		}
+
+		input.wrong{
+			border:1px solid $red !important;
+		}
+	}
+
+	.form-right{
+		float:left;
+		width:65%;
+
+		textarea{
+			width:100%;
+			height:140px;
+			border:1px solid $gold;
+		}
+
+		textarea.wrong{
+			border:1px solid $red !important;
+		}
+
+		input[type="submit"]{
+			float:right;
+			background:$gold;
+			color:$white;
+			padding:0.5em 2em;
+		}
 	}
