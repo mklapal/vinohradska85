@@ -22,34 +22,44 @@ require("../pages/template_header_en.php");
                     <div class="logo-element"></div>
                     </div>
 
-                    
+                    <div class="contact-wrapper">
+                    <div class="contact-box">
 
-                    Logo NOPAL v příloze, prosím udělat z loga odkaz: (www.nopalreality.cz)
+					<h2>Exclusive Dealer</h2>
 
-					Kontakty:
+					<a href="http://www.nopalreality.cz" target="_blank">
+					<img src="<?php echo URL; ?>/images/nopal_logo.png" alt="NOPAL logo">
+					</a>
 
-					Exclusive Dealer
+					<p>
+					Dienzenhoferovy sady 2<br>
+					150 00 Praha 5<br>
+					</p>
+					<p>
+					T: +420 257 317 898<br>
+					E: <a href="mailto:info@nopalreality.cz">info@nopalreality.cz</a><br>
+					W: <a href="http://www.nopalreality.cz" target="_blank">www.nopalreality.cz</a><br>
+					</p>
 
+					</div>
+					<div class="contact-box">
 
-					Dienzenhoferovy sady 2
-					150 00 Praha 5
+					<h2>Brokers</h2>
 
-					T: +420 257 317 898
-					E: info@nopalreality.cz
-					W: www.nopalreality.cz
+					<p>
+					Petr Moťka<br>
+					T: +420 606 692 812<br>
+					E: <a href="mailto:petr.motka@nopalreality.cz">petr.motka@nopalreality.cz</a><br>
+					</p>
+					
+					<p>
+					Jana Sestini<br>
+					T: +420 721 800 413<br>
+					E: <a href="mailto:jana.sestini@nopalreality.cz">jana.sestini@nopalreality.cz</a><br>
+					</p>
 
-
-					Brokers
-
-
-					Petr Moťka
-					T: +420 606 692 812
-					E: petr.motka@nopalreality.cz
-
-					Jana Sestini
-					T: +420 721 800 413
-					E: jana.sestini@nopalreality.cz
-
+					</div>
+					</div>
 
 
 				<?php require("template_form_en.php"); ?>

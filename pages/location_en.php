@@ -21,7 +21,7 @@ require("../pages/template_header_en.php");
                     </ul>
 
                     <p class="address">
-                    <a href="https://www.google.com/maps/preview" target="_blank">
+                    <a href="https://goo.gl/maps/Vk9Yz" target="_blank">
                         <img class="img-left" src="<?php echo(URL); ?>/content/mapa.png" alt="map" />
                     </a>
                     <br>

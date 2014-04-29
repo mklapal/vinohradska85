@@ -80,6 +80,20 @@ foreach ($data["flats"] as $key) {
 
 ?>
 
+                    <tr>
+                        <td class="left">
+                        </td>
+                        <td class="left" colspan="6">
+                        Basement layout
+                        </td>
+                        <td class="center">
+                            <a href="'.URL.'/content/pdfs/basement_en.pdf" target="_blank">
+                                <img class="pdf-icon" src="<?php echo URL ?>/images/pdf-icon.png" alt="download" />
+                            </a>
+                        </td>
+                    </tr>
+
+
                     </table>
 
 <?php

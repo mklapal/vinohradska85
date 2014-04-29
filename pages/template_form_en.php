@@ -1,4 +1,4 @@
-<h2>Contact us</h2>
+<h2 class="form-headline">Contact us</h2>
 
     <form class="js-send">
 

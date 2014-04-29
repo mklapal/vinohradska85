@@ -47,7 +47,7 @@ require("pages/template_header_en.php");
                 In total 21 apartments and 2 commercial spaces have been created due to the fact that the whole building has been carefully refurbished in modern apartments of high standard and different types and sizes. Living spaces are with the south orientation to the park and have a full day-light.
                 </p>
                 <p class="more">
-                    <a href="">see more >>> </a>
+                    <a href="<?php echo URL; ?>/sales">see more >>> </a>
                 </p>
             </section>
 
@@ -62,7 +62,7 @@ require("pages/template_header_en.php");
                 <img class="img-center" src="<?php echo(URL); ?>/content/mapa.png" alt="map" />
                 </p>
                 <p class="more">
-                    <a href="">see more >>> </a>
+                    <a href="<?php echo URL; ?>/location">see more >>> </a>
                 </p>
             </section>
             
@@ -76,7 +76,7 @@ require("pages/template_header_en.php");
                 The renovation is done to the highest standard with regard to the original architectural details like doors, windows, iron and tile works etc. The goal is to keep the ambiance and feeling of the elegant Art Nouveau style.  High ceilings and large windows let in plenty of natural light which adds to the overall quality of the entire project.
                 </p>
                 <p class="more">
-                    <a href="">see more >>> </a>
+                    <a href="<?php echo URL; ?>/standards">see more >>> </a>
                 </p>
             </section>
 
