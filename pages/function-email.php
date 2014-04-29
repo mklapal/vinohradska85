@@ -13,10 +13,10 @@ function return_url($input) {
     return $output;
 }
 
-//$_POST['name'] = "michal";
-//$_POST['phone'] = "michal";
-//$_POST['email'] = "michalklapal@gmail.com";
-//$_POST['text'] = "testovaci zprava / mockup";
+$_POST['name'] = "michal";
+$_POST['phone'] = "michal";
+$_POST['email'] = "michalklapal@gmail.com";
+$_POST['text'] = "testovaci zprava / mockup";
 
 
 //odešle email zákazníkovi a nám

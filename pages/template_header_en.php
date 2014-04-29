@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>index mockup</title>
+        <title>Vinohradska85.cz ... Your place to live</title>
         <link href="<?php echo(URL); ?>/style/css/style.css" rel="stylesheet">
         <!--[if !IE]>-->
         <style type="text/css">
@@ -21,8 +21,8 @@
     <body>
     	<header class="<?php if(isset($homepage)) { echo "homepage"; } ?>">
             <div class="wrapper">
-    		<h1 class="header-logo-left"><a href="">Vinohradská85.cz</a></h1>
-            <h2 class="header-logo-right"><a href="">... Your place to live</a></h2>
+    		<h1 class="header-logo-left"><a href="<?php echo(URL); ?>/<?php echo($lang); ?>">Vinohradská85.cz</a></h1>
+            <h2 class="header-logo-right"><a href="<?php echo(URL); ?>/<?php echo($lang); ?>">... Your place to live</a></h2>
             
             <nav class="main-menu">
                     <ul>

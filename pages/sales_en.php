@@ -70,7 +70,7 @@ foreach ($data["flats"] as $key) {
         <td class="left">'.$key['status_en'].'</td>
         <td class="right">'.$key['price_en'].'</td>
         <td class="center">
-            <a href="'.URL.'/content/pdfs/flat_'.$key['number'].'_en.pdf" target="_blank">
+            <a href="'.URL.'/content/'.$key['number'].'.pdf" target="_blank">
                 <img class="pdf-icon" src="'.URL.'/images/pdf-icon.png" alt="download" />
             </a>
         </td>
@@ -143,7 +143,7 @@ foreach ($data["flats"] as $key) {
             </tr>
             <tr>
                 <td colspan="2" class="download">
-                    <a href="'.URL.'/content/pdfs/flat_'.$key['number'].'_en.pdf" target="_blank">
+                    <a href="'.URL.'/content/'.$key['number'].'.pdf" target="_blank">
                     <img class="pdf-icon" src="'.URL.'/images/pdf-icon.png" alt="download" /> download >>>
                     </a>
                 </td>

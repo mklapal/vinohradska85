@@ -12,9 +12,9 @@
                 });
             
                 var bcg = [
-                'http://localhost:8080/vinohradska85/images/bcg1.jpg',
-                'http://localhost:8080/vinohradska85/images/bcg2.jpg',
-                'http://localhost:8080/vinohradska85/images/bcg3.jpg',
+                'http://qa.vinohradska85.cz/images/bcg1.jpg',
+                'http://qa.vinohradska85.cz/images/bcg2.jpg',
+                'http://qa.vinohradska85.cz/images/bcg3.jpg',
                 ];   
     
                 $(bcg).preload();
@@ -103,11 +103,11 @@
 
                     var status = true;
                     //validation
-                    if ($('.js-form-name').val().length <= 3){
+                    if ($('.js-form-name').val().length < 3){
                         status = false;
                         $('.js-hint-name').addClass("wrong");
                     }
-                    if ($('.js-form-phone').val().length <= 9){
+                    if ($('.js-form-phone').val().length < 9){
                         status = false;
                         $('.js-hint-phone').addClass("wrong");
                     }
@@ -115,7 +115,7 @@
                         status = false;
                         $('.js-hint-email').addClass("wrong");
                     }
-                    if ($('.js-form-text').val().length <= 10){
+                    if ($('.js-form-text').val().length < 10){
                         status = false;
                         $('.js-hint-text').addClass("wrong");
                     }
@@ -123,7 +123,7 @@
                         status = false;
                     }
                     
-                    console.log(status);
+                    //console.log(status);
 
                     if (status){
                         var name,
@@ -133,7 +133,8 @@
 
                         $.ajax({
                             type: "POST",
-                            url: "http://localhost:8080/vinohradska85/pages/function-email.php",
+                            //url: "http://localhost:8080/vinohradska85/pages/function-email_en.php",
+                            url: "http://qa.vinohradska85.cz/pages/function-email_en.php",
                             data: $(".js-send").serialize(), // serializes the form's elements.
                             success: function(data)
                             {
