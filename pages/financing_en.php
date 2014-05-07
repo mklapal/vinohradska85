@@ -32,6 +32,7 @@ require("../pages/template_header_en.php");
 					<h2>
 						RESERVATION CONTRACT (Binding Reservation)
 					</h2>
+					<p>
 						The binding reservation means the signing of the Reservation Contract, after which the Future Seller agrees to take off the property of the market. The Reservation Contract commits the Buyer to pay the reservation fee amount of CZK 200.000,- within 5 (five) working days from the signing of this contract. This contract commits both parties to conclude the Pre-purchase Contract. If Purchase Contract is concluded, the reservation fee is deducted from the purchase price.
 					</p>
 					

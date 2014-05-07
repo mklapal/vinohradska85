@@ -1,0 +1,26 @@
+.headline{
+	width:100%;
+	//clear:both;
+	img{
+		width:200px;
+	}
+}
+
+.box-wrapper{
+	width:auto;
+	height:auto;
+	//border:1px solid black;
+	float:left;
+	margin:1em 0 2em;
+
+	a{
+		display:block;
+		float:left;
+		margin:0 0 1em 0;
+
+		img{
+			display:block;
+			width:250px;
+		}
+	}
+}

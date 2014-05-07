@@ -12,9 +12,9 @@
                 });
             
                 var bcg = [
-                'http://qa.vinohradska85.cz/images/bcg1.jpg',
-                'http://qa.vinohradska85.cz/images/bcg2.jpg',
-                'http://qa.vinohradska85.cz/images/bcg3.jpg',
+                'http://qa.vinohradska85.cz/images/1.jpg',
+                'http://qa.vinohradska85.cz/images/2.jpg',
+                'http://qa.vinohradska85.cz/images/3.jpg',
                 ];   
     
                 $(bcg).preload();

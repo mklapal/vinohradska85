@@ -119,7 +119,7 @@ foreach ($data["flats"] as $key) {
             </tr>
             <tr>
                 <td>Area:</td>
-                <td>'.$key['area'].'</td>
+                <td>'.$key['area'].' m&sup2;</td>
             </tr>
             <tr>
                 <td>Disposition:</td>

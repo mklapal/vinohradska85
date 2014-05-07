@@ -2,7 +2,7 @@
 	padding: 0 10%;
 	
 	&.js-background{
-		background-image: url('../../images/bcg1.jpg');
+		background-image: url('../../images/1.jpg');
 		background-position: 50% 50%;
 		background-size: cover;
 		@include transition(all, 1s, ease-in-out);
@@ -242,6 +242,7 @@
 			margin:0 0 1em 0;
 			text-align: justify;
 			padding-top:0.6em;
+			font-size:$font-s;
 		}
 
 		img.full-size{

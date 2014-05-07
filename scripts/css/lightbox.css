@@ -62,6 +62,8 @@ body:after {
 
 .lb-container {
   padding: 4px;
+  
+  max-width: 1000px;
 }
 
 .lb-loader {

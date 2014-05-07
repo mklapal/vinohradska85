@@ -33,8 +33,10 @@ header {
 		float:left;
 		width:50%;
 		height:110px;
-		background: transparent url('../../images/header_logo_left.svg') no-repeat;
+		//background: transparent url('../../images/header_logo_left.svg') no-repeat;
+		background: transparent url('../../images/general_logo.svg') no-repeat;
 		background-position: 50% 40%;
+		background-size: contain;
 		a{
 			display:block;
 			width:100%;
