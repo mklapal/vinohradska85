@@ -2,6 +2,8 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="icon" href="<?php echo(URL); ?>/favicon.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="<?php echo(URL); ?>/favicon.ico" type="image/x-icon">
         <title>Vinohradska85.cz ... Your place to live</title>
         <link href="<?php echo(URL); ?>/style/css/style.css" rel="stylesheet">
         <!--[if !IE]>-->
