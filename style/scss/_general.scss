@@ -26,3 +26,11 @@ body {
 strong{
     font-weight:bold;
 }
+
+a{
+    color:$black;
+    &:hover{
+        color:$gold;
+    }
+
+}

@@ -32,6 +32,41 @@ require("../pages/template_header_en.php");
                     </div>
 
                     <div class="headline">
+                        <img src="<?php echo(URL); ?>/content/thumb_standards3_head.jpg" alt="" />
+                    </div>
+                    <div class="box-wrapper">
+                    
+                    <a href="<?php echo(URL); ?>/content/standards3_01.jpg" data-lightbox="standards3">
+                    <img src="<?php echo(URL); ?>/content/thumb_standards3_01.jpg" class="" alt="" />
+                    </a>
+
+                    <a href="<?php echo(URL); ?>/content/standards3_02.jpg" data-lightbox="standards3">
+                    <img src="<?php echo(URL); ?>/content/thumb_standards3_02.jpg" class="" alt="" />
+                    </a>
+
+                    <a href="<?php echo(URL); ?>/content/standards3_03.jpg" data-lightbox="standards3">
+                    <img src="<?php echo(URL); ?>/content/thumb_standards3_03.jpg" class="" alt="" />
+                    </a>
+
+                    <a href="<?php echo(URL); ?>/content/standards3_04.jpg" data-lightbox="standards3">
+                    <img src="<?php echo(URL); ?>/content/thumb_standards3_04.jpg" class="" alt="" />
+                    </a>
+
+                    <a href="<?php echo(URL); ?>/content/standards3_05.jpg" data-lightbox="standards3">
+                    <img src="<?php echo(URL); ?>/content/thumb_standards3_05.jpg" class="" alt="" />
+                    </a>
+
+                    <a href="<?php echo(URL); ?>/content/standards3_06.jpg" data-lightbox="standards3">
+                    <img src="<?php echo(URL); ?>/content/thumb_standards3_06.jpg" class="" alt="" />
+                    </a>
+
+                    <a href="<?php echo(URL); ?>/content/standards3_07.jpg" data-lightbox="standards3">
+                    <img src="<?php echo(URL); ?>/content/thumb_standards3_07.jpg" class="" alt="" />
+                    </a>
+
+                    </div>
+
+                    <div class="headline">
                         <img src="<?php echo(URL); ?>/content/thumb_standards1_head.jpg" alt="" />
                     </div>
                     <div class="box-wrapper">
@@ -94,41 +129,6 @@ require("../pages/template_header_en.php");
 
                     <a href="<?php echo(URL); ?>/content/standards2_07.jpg" data-lightbox="standards1">
                     <img src="<?php echo(URL); ?>/content/thumb_standards2_07.jpg" class="" alt="" />
-                    </a>
-
-                    </div>
-
-                    <div class="headline">
-                        <img src="<?php echo(URL); ?>/content/thumb_standards3_head.jpg" alt="" />
-                    </div>
-                    <div class="box-wrapper">
-                    
-                    <a href="<?php echo(URL); ?>/content/standards3_01.jpg" data-lightbox="standards3">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards3_01.jpg" class="" alt="" />
-                    </a>
-
-                    <a href="<?php echo(URL); ?>/content/standards3_02.jpg" data-lightbox="standards3">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards3_02.jpg" class="" alt="" />
-                    </a>
-
-                    <a href="<?php echo(URL); ?>/content/standards3_03.jpg" data-lightbox="standards3">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards3_03.jpg" class="" alt="" />
-                    </a>
-
-                    <a href="<?php echo(URL); ?>/content/standards3_04.jpg" data-lightbox="standards3">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards3_04.jpg" class="" alt="" />
-                    </a>
-
-                    <a href="<?php echo(URL); ?>/content/standards3_05.jpg" data-lightbox="standards3">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards3_05.jpg" class="" alt="" />
-                    </a>
-
-                    <a href="<?php echo(URL); ?>/content/standards3_06.jpg" data-lightbox="standards3">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards3_06.jpg" class="" alt="" />
-                    </a>
-
-                    <a href="<?php echo(URL); ?>/content/standards3_07.jpg" data-lightbox="standards3">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards3_07.jpg" class="" alt="" />
                     </a>
 
                     </div>

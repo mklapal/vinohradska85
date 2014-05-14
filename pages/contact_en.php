@@ -11,21 +11,20 @@ require("../pages/template_header_en.php");
             
             <div class="wrapper">
 
-                <div class="left-side">
-
+            	<div class="left-side">
                 </div>
 
                 <div class="right-side">
 
-                    <div class="header">
+                	<div class="header">
                     <h1>Contact</h1>
                     <div class="logo-element"></div>
-                    </div>
+                	</div>
 
-                    <div class="contact-wrapper">
+                	<div class="contact-wrapper">
                     <div class="contact-box">
 
-					<h2>Exclusive Dealer</h2>
+					<h2>SALES AGENT</h2>
 
 					<a href="http://www.nopalreality.cz" target="_blank">
 					<img src="<?php echo URL; ?>/images/nopal_logo.png" alt="NOPAL logo">
@@ -41,9 +40,6 @@ require("../pages/template_header_en.php");
 					W: <a href="http://www.nopalreality.cz" target="_blank">www.nopalreality.cz</a><br>
 					</p>
 
-					</div>
-					<div class="contact-box">
-
 					<h2>Brokers</h2>
 
 					<p>
@@ -56,6 +52,25 @@ require("../pages/template_header_en.php");
 					Jana Sestini<br>
 					T: +420 721 800 413<br>
 					E: <a href="mailto:jana.sestini@nopalreality.cz">jana.sestini@nopalreality.cz</a><br>
+					</p>
+
+					</div>
+                    <div class="contact-box">
+
+					<h2>ARCHITECT SERVICES</h2>
+
+					<a href="http://www.nopalreality.cz" target="_blank">
+					<img src="<?php echo URL; ?>/images/nopal_logo.png" alt="NOPAL logo">
+					</a>
+
+					<p>
+					Dienzenhoferovy sady 2<br>
+					150 00 Praha 5<br>
+					</p>
+					<p>
+					T: +420 257 317 898<br>
+					E: <a href="mailto:info@nopalreality.cz">info@nopalreality.cz</a><br>
+					W: <a href="http://www.nopalreality.cz" target="_blank">www.nopalreality.cz</a><br>
 					</p>
 
 					</div>

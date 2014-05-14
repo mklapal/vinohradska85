@@ -21,13 +21,16 @@ require("../pages/template_header_en.php");
                     </ul>
 
                     <p class="address">
+                    <a href="https://goo.gl/maps/Vk9Yz" target="_blank"><img class="img-left" src="<?php echo(URL); ?>/content/mapa.png" alt="map" /></a>
+                    <br>
                     <a href="https://goo.gl/maps/Vk9Yz" target="_blank">
-                        <img class="img-left" src="<?php echo(URL); ?>/content/mapa.png" alt="map" />
+                        >>> see google maps
                     </a>
+                    <br>
                     <br>
                     Vinohradská 1193/85<br>
                     Praha 2 - Vinohrady<br>
-                    Czech Republic
+                    Czech Republic<br>
                     </p>
 
                 </div>
