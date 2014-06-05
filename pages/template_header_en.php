@@ -43,8 +43,8 @@
 
             <nav class="lang-menu">
                     <ul>
-                        <li><a href="/" class="<?php if($lang === "cz") { echo "selected"; } ?>">cz</a></li>
-                        <li><a href="/en" class="<?php if($lang === "en") { echo "selected"; } ?>">en</a></li>
+                        <li><a href="<?php echo URL; ?>/" class="<?php if($lang === "cs") { echo "selected"; } ?>">cz</a></li>
+                        <li><a href="<?php echo URL; ?>/en" class="<?php if($lang === "en") { echo "selected"; } ?>">en</a></li>
                     </ul>
             </nav>
             

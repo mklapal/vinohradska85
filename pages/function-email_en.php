@@ -13,11 +13,12 @@ function return_url($input) {
     return $output;
 }
 
+/*
 $_POST['name'] = "michal";
 $_POST['phone'] = "michal";
 $_POST['email'] = "michalklapal@gmail.com";
 $_POST['text'] = "testovaci zprava / mockup";
-
+*/
 
 //odešle email zákazníkovi a nám
     $message = ('
@@ -123,7 +124,7 @@ $_POST['text'] = "testovaci zprava / mockup";
       $mail->AddReplyTo("info@nopalreality.cz","Info NOPAL");
       $mail->AddAddress($val[0], $val[1]);
       
-      $mail->Subject    = "Vinohradska85 - contact form / kontaktni formular"; //předmět mailu 
+      $mail->Subject    = "Vinohradska85 - kontaktni formular / contact form"; //předmět mailu 
       $mail->AltBody    = strip_tags($message); // optional, comment out and test
       $mail->MsgHTML($message);
     

@@ -26,6 +26,7 @@ require("pages/template_header_en.php");
                         <li class="js-bcg active">0</li>
                         <li class="js-bcg">1</li>
                         <li class="js-bcg">2</li>
+                        <li class="js-bcg">3</li>
                     </ul>
                 </div>
 

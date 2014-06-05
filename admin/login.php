@@ -2,7 +2,7 @@
 session_start();
 
 if( !empty($_POST['username']) && !empty($_POST['password'])) {
-	if(($_POST['username']==='jmeno') && ($_POST['password']==='heslo')) {
+	if(($_POST['username']==='NOPAL') && ($_POST['password']==='123456Ab')) {
 
 		//souhlasí, nastavíme session, může jich být více a můžeš v nich přenášet třeba jméno přihlášeného...
 		$_SESSION['prihlasen']=1;

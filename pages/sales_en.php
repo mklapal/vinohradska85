@@ -20,6 +20,9 @@ require("../pages/template_header_en.php");
                     <p>
                         Each unit has a possibility to buy a cellar in the basement of the house. Owners can also spend a leisure time in pleasing and quite garden located in the courtyard of the house.
                     </p>
+                    <p>
+                        The project is currently under construction, estimated building approval term 12/2014.
+                    </p>
                     <div class="logo-element"></div>
 
                 </div>
@@ -37,7 +40,7 @@ require("../pages/template_header_en.php");
                         <td class="floor">Floor</td>
                         <td class="Disposition">Disposition</td>
                         <td class="area">Area</td>
-                        <td class="note">Note</td>
+                        <!-- <td class="note">Note</td> -->
                         <td class="status">Status</td>
                         <td class="price">Price</td>
                         <td class="docs">Documentation</td>
@@ -66,7 +69,7 @@ foreach ($data["flats"] as $key) {
         <td class="left">'.$key['floor_en'].'</td>
         <td class="left">'.$key['disposition'].'</td>
         <td class="right">'.$key['area'].' m&sup2;</td>
-        <td class="left">'.$key['note_en'].'</td>
+        <!-- <td class="left">'.$key['note_en'].'</td> -->
         <td class="left">'.$key['status_en'].'</td>
         <td class="right">'.$key['price_en'].'</td>
         <td class="center">
@@ -81,18 +84,19 @@ foreach ($data["flats"] as $key) {
 ?>
 
                     <tr>
-                        <td class="left">
-                        </td>
-                        <td class="left" colspan="6">
-                        Basement layout
-                        </td>
+                        <td class="left">basement</td>
+                        <td class="left">-1th</td>
+                        <td class="left">cellars</td>
+                        <td class="right">-</td>
+                        <!-- <td class="left">'.$key['note_cs'].'</td> -->
+                        <td class="left">for sale</td>
+                        <td class="right">-</td>
                         <td class="center">
                             <a href="<?php echo URL ?>/content/cellar_en.pdf" target="_blank">
                                 <img class="pdf-icon" src="<?php echo URL ?>/images/pdf-icon.png" alt="download" />
                             </a>
                         </td>
                     </tr>
-
 
                     </table>
 
@@ -125,10 +129,12 @@ foreach ($data["flats"] as $key) {
                 <td>Disposition:</td>
                 <td>'.$key['disposition'].'</td>
             </tr>
+            <!--
             <tr>
                 <td>Note:</td>
                 <td>'.$key['note_en'].'</td>
             </tr>
+            -->
             <tr>
                 <td>&nbsp;</td>
                 <td></td>
@@ -155,6 +161,61 @@ foreach ($data["flats"] as $key) {
     </div>
     ');
 }
+
+echo ('
+    <div class="flat" id="">
+
+        <div class="image">
+            <a href="'.URL.'/content/sales_basement.png" data-lightbox="image-1">
+                <img src="'.URL.'/content/sales_basement.png" alt="">
+            </a>
+        </div>
+        <div class="data">
+            <h1>Basement</h1>
+            <table>
+            <tr>
+                <td>Floor:</td>
+                <td>-1th</td>
+            </tr>
+            <tr>
+                <td>Area:</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>Disposition:</td>
+                <td>cellars</td>
+            </tr>
+            <!--
+            <tr>
+                <td>Note:</td>
+                <td></td>
+            </tr>
+            -->
+            <tr>
+                <td>&nbsp;</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>Status:</td>
+                <td>for sale</td>
+            </tr>
+            <tr>
+                <td>Price:</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="download">
+                    <a href="'.URL.'/content/cellar_en.pdf" target="_blank">
+                    <img class="pdf-icon" src="'.URL.'/images/pdf-icon.png" alt="download" /> download >>>
+                    </a>
+                </td>
+            </tr>
+            </table>
+
+        </div>
+
+    </div>
+    ');
 
 ?>
 

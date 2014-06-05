@@ -32,129 +32,109 @@ require("../pages/template_header_en.php");
                     </div>
 
                     <div class="headline">
-                        <img src="<?php echo(URL); ?>/content/thumb_standards3_head.jpg" alt="" />
+                        <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards3_head.jpg" alt="" />
                     </div>
                     <div class="box-wrapper">
                     
-                    <a href="<?php echo(URL); ?>/content/standards3_01.jpg" data-lightbox="standards3">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards3_01.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards3_01.jpg" data-lightbox="standards3">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards3_01.jpg" class="" alt="" />
                     </a>
 
-                    <a href="<?php echo(URL); ?>/content/standards3_02.jpg" data-lightbox="standards3">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards3_02.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards3_02.jpg" data-lightbox="standards3">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards3_02.jpg" class="" alt="" />
                     </a>
 
-                    <a href="<?php echo(URL); ?>/content/standards3_03.jpg" data-lightbox="standards3">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards3_03.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards3_03.jpg" data-lightbox="standards3">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards3_03.jpg" class="" alt="" />
                     </a>
 
-                    <a href="<?php echo(URL); ?>/content/standards3_04.jpg" data-lightbox="standards3">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards3_04.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards3_04.jpg" data-lightbox="standards3">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards3_04.jpg" class="" alt="" />
                     </a>
 
-                    <a href="<?php echo(URL); ?>/content/standards3_05.jpg" data-lightbox="standards3">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards3_05.jpg" class="" alt="" />
-                    </a>
-
-                    <a href="<?php echo(URL); ?>/content/standards3_06.jpg" data-lightbox="standards3">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards3_06.jpg" class="" alt="" />
-                    </a>
-
-                    <a href="<?php echo(URL); ?>/content/standards3_07.jpg" data-lightbox="standards3">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards3_07.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards3_05.jpg" data-lightbox="standards3">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards3_05.jpg" class="" alt="" />
                     </a>
 
                     </div>
 
                     <div class="headline">
-                        <img src="<?php echo(URL); ?>/content/thumb_standards1_head.jpg" alt="" />
+                        <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards1_head.jpg" alt="" />
                     </div>
                     <div class="box-wrapper">
                     
-                    <a href="<?php echo(URL); ?>/content/standards1_01.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards1_01.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards1_01.jpg" data-lightbox="standards1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards1_01.jpg" class="" alt="" />
                     </a> 
 
-                    <a href="<?php echo(URL); ?>/content/standards1_02.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards1_02.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards1_02.jpg" data-lightbox="standards1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards1_02.jpg" class="" alt="" />
                     </a>
 
-                    <a href="<?php echo(URL); ?>/content/standards1_03.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards1_03.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards1_03.jpg" data-lightbox="standards1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards1_03.jpg" class="" alt="" />
                     </a>
 
-                    <a href="<?php echo(URL); ?>/content/standards1_04.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards1_04.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards1_04.jpg" data-lightbox="standards1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards1_04.jpg" class="" alt="" />
                     </a>
 
-                    <a href="<?php echo(URL); ?>/content/standards1_05.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards1_05.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards1_05.jpg" data-lightbox="standards1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards1_05.jpg" class="" alt="" />
                     </a>
 
-                    <a href="<?php echo(URL); ?>/content/standards1_06.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards1_06.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards1_06.jpg" data-lightbox="standards1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards1_06.jpg" class="" alt="" />
                     </a>
 
-                    <a href="<?php echo(URL); ?>/content/standards1_07.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards1_07.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards1_07.jpg" data-lightbox="standards1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards1_07.jpg" class="" alt="" />
                     </a>
 
-                    <a href="<?php echo(URL); ?>/content/standards1_08.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards1_08.jpg" class="" alt="" />
-                    </a>
-                    
-                    <a href="<?php echo(URL); ?>/content/standards2_01.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards2_01.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards2_01.jpg" data-lightbox="standards1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards2_01.jpg" class="" alt="" />
                     </a> 
 
-                    <a href="<?php echo(URL); ?>/content/standards2_02.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards2_02.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards2_02.jpg" data-lightbox="standards1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards2_02.jpg" class="" alt="" />
                     </a>
 
-                    <a href="<?php echo(URL); ?>/content/standards2_03.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards2_03.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards2_03.jpg" data-lightbox="standards1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards2_03.jpg" class="" alt="" />
                     </a>
 
-                    <a href="<?php echo(URL); ?>/content/standards2_04.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards2_04.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards2_04.jpg" data-lightbox="standards1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards2_04.jpg" class="" alt="" />
                     </a>
 
-                    <a href="<?php echo(URL); ?>/content/standards2_05.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards2_05.jpg" class="" alt="" />
-                    </a>
-
-                    <a href="<?php echo(URL); ?>/content/standards2_06.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards2_06.jpg" class="" alt="" />
-                    </a>
-
-                    <a href="<?php echo(URL); ?>/content/standards2_07.jpg" data-lightbox="standards1">
-                    <img src="<?php echo(URL); ?>/content/thumb_standards2_07.jpg" class="" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards2_05.jpg" data-lightbox="standards1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/thumb_standards2_05.jpg" class="" alt="" />
                     </a>
 
                     </div>
 
                     <!--
-                    <a href="<?php echo(URL); ?>/content/standards_1.jpg" data-lightbox="image-1">
-                    <img src="<?php echo(URL); ?>/content/standards_1.jpg" class="full-size" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards_1.jpg" data-lightbox="image-1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/standards_1.jpg" class="full-size" alt="" />
                     </a>
 
-                    <a class="standards-link" href="<?php echo(URL); ?>/content/standards_1.jpg" data-lightbox="image-2">
+                    <a class="standards-link" href="<?php echo(URL); ?>/content/standards_en/standards_1.jpg" data-lightbox="image-2">
                     Italian made ceramics >>>
                 	</a>
 
-                    <a href="<?php echo(URL); ?>/content/standards_2.jpg" data-lightbox="image-1">
-                    <img src="<?php echo(URL); ?>/content/standards_2.jpg" class="full-size" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards_2.jpg" data-lightbox="image-1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/standards_2.jpg" class="full-size" alt="" />
                     </a>
 					
-					<a class="standards-link" href="<?php echo(URL); ?>/content/standards_2.jpg" data-lightbox="image-2">
+					<a class="standards-link" href="<?php echo(URL); ?>/content/standards_en/standards_2.jpg" data-lightbox="image-2">
                     Italian made sanitary facilities >>>
                 	</a>
 
-                    <a href="<?php echo(URL); ?>/content/standards_3.jpg" data-lightbox="image-1">
-                    <img src="<?php echo(URL); ?>/content/standards_3.jpg" class="full-size" alt="" />
+                    <a href="<?php echo(URL); ?>/content/standards_en/standards_3.jpg" data-lightbox="image-1">
+                    <img src="<?php echo(URL); ?>/content/standards_en/standards_3.jpg" class="full-size" alt="" />
                     </a>
 
-                    <a class="standards-link" href="<?php echo(URL); ?>/content/standards_3.jpg" data-lightbox="image-2">
+                    <a class="standards-link" href="<?php echo(URL); ?>/content/standards_en/standards_3.jpg" data-lightbox="image-2">
                     Regard to the original architectural details >>>
                 	</a>
                     -->

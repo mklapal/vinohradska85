@@ -12,9 +12,11 @@
                 });
             
                 var bcg = [
-                'http://qa.vinohradska85.cz/images/1.jpg',
-                'http://qa.vinohradska85.cz/images/2.jpg',
-                'http://qa.vinohradska85.cz/images/3.jpg',
+                'http://qa.vinohradska85.cz/images/new1.jpg',
+                'http://qa.vinohradska85.cz/images/new2.jpg',
+                'http://qa.vinohradska85.cz/images/new3.jpg',
+                'http://qa.vinohradska85.cz/images/new4.jpg',
+
                 ];   
     
                 $(bcg).preload();
@@ -25,7 +27,7 @@
 
                 setInterval(function(){
                         if (auto){
-                            var pos = i%3;
+                            var pos = i%4;
                             var posa = pos+1;
                             $(".js-background").css("background-image", "url('" + bcg[pos] + "')");
                             $(".js-bcg").removeClass("active");

@@ -8,14 +8,7 @@
 #adresy - maskování
 RewriteEngine On
 
-#přepis na web s www
-#Options +FollowSymlinks
-#RewriteCond %{HTTP_HOST} ^.cz
-#RewriteRule (.*) http://www..cz/$1 [R=301,QSA,L]
-
-#company
-
-RewriteRule		^poloha			/vinohradska85/pages/location.php
+RewriteRule		^lokalita		/vinohradska85/pages/location.php
 RewriteRule		^location		/vinohradska85/pages/location_en.php
 RewriteRule		^prodej			/vinohradska85/pages/sales.php
 RewriteRule		^sales			/vinohradska85/pages/sales_en.php
@@ -25,11 +18,10 @@ RewriteRule		^standardy		/vinohradska85/pages/standards.php
 RewriteRule		^standards		/vinohradska85/pages/standards_en.php
 RewriteRule		^informace		/vinohradska85/pages/info.php
 RewriteRule		^info			/vinohradska85/pages/info_en.php
-RewriteRule		^finance		/vinohradska85/pages/financing.php
+RewriteRule		^financovani	/vinohradska85/pages/financing.php
 RewriteRule		^financing		/vinohradska85/pages/financing_en.php
-RewriteRule		^kontakty		/vinohradska85/pages/contact.php
+RewriteRule		^kontakt		/vinohradska85/pages/contact.php
 RewriteRule		^contact		/vinohradska85/pages/contact_en.php
 
 RewriteRule		^en				/vinohradska85/index_en.php
-#RewriteRule		^/				/vinohradska85/index.php
 

@@ -15,7 +15,7 @@ RewriteEngine On
 
 #company
 
-RewriteRule		^poloha			http://qa.vinohradska85.cz/pages/location.php
+RewriteRule		^lokalita		http://qa.vinohradska85.cz/pages/location.php
 RewriteRule		^location		http://qa.vinohradska85.cz/pages/location_en.php
 RewriteRule		^prodej			http://qa.vinohradska85.cz/pages/sales.php
 RewriteRule		^sales			http://qa.vinohradska85.cz/pages/sales_en.php
@@ -25,9 +25,9 @@ RewriteRule		^standardy		http://qa.vinohradska85.cz/pages/standards.php
 RewriteRule		^standards		http://qa.vinohradska85.cz/pages/standards_en.php
 RewriteRule		^informace		http://qa.vinohradska85.cz/pages/info.php
 RewriteRule		^info			http://qa.vinohradska85.cz/pages/info_en.php
-RewriteRule		^finance		http://qa.vinohradska85.cz/pages/financing.php
+RewriteRule		^financovani	http://qa.vinohradska85.cz/pages/financing.php
 RewriteRule		^financing		http://qa.vinohradska85.cz/pages/financing_en.php
-RewriteRule		^kontakty		http://qa.vinohradska85.cz/pages/contact.php
+RewriteRule		^kontakt		http://qa.vinohradska85.cz/pages/contact.php
 RewriteRule		^contact		http://qa.vinohradska85.cz/pages/contact_en.php
 
 RewriteRule		^en				http://qa.vinohradska85.cz/index_en.php
