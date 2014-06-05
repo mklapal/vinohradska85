@@ -12,10 +12,10 @@
                 });
             
                 var bcg = [
-                'http://qa.vinohradska85.cz/images/new1.jpg',
-                'http://qa.vinohradska85.cz/images/new2.jpg',
-                'http://qa.vinohradska85.cz/images/new3.jpg',
-                'http://qa.vinohradska85.cz/images/new4.jpg',
+                'http://www.vinohradska85.cz/images/new1.jpg',
+                'http://www.vinohradska85.cz/images/new2.jpg',
+                'http://www.vinohradska85.cz/images/new3.jpg',
+                'http://www.vinohradska85.cz/images/new4.jpg',
 
                 ];   
     
@@ -136,7 +136,7 @@
                         $.ajax({
                             type: "POST",
                             //url: "http://localhost:8080/vinohradska85/pages/function-email_en.php",
-                            url: "http://qa.vinohradska85.cz/pages/function-email_en.php",
+                            url: "http://www.vinohradska85.cz/pages/function-email_en.php",
                             data: $(".js-send").serialize(), // serializes the form's elements.
                             success: function(data)
                             {

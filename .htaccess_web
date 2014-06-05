@@ -15,21 +15,21 @@ RewriteEngine On
 
 #company
 
-RewriteRule		^lokalita		http://qa.vinohradska85.cz/pages/location.php
-RewriteRule		^location		http://qa.vinohradska85.cz/pages/location_en.php
-RewriteRule		^prodej			http://qa.vinohradska85.cz/pages/sales.php
-RewriteRule		^sales			http://qa.vinohradska85.cz/pages/sales_en.php
-RewriteRule		^fotografie		http://qa.vinohradska85.cz/pages/photos.php
-RewriteRule		^photos			http://qa.vinohradska85.cz/pages/photos_en.php
-RewriteRule		^standardy		http://qa.vinohradska85.cz/pages/standards.php
-RewriteRule		^standards		http://qa.vinohradska85.cz/pages/standards_en.php
-RewriteRule		^informace		http://qa.vinohradska85.cz/pages/info.php
-RewriteRule		^info			http://qa.vinohradska85.cz/pages/info_en.php
-RewriteRule		^financovani	http://qa.vinohradska85.cz/pages/financing.php
-RewriteRule		^financing		http://qa.vinohradska85.cz/pages/financing_en.php
-RewriteRule		^kontakt		http://qa.vinohradska85.cz/pages/contact.php
-RewriteRule		^contact		http://qa.vinohradska85.cz/pages/contact_en.php
+RewriteRule		^lokalita		http://www.vinohradska85.cz/pages/location.php
+RewriteRule		^location		http://www.vinohradska85.cz/pages/location_en.php
+RewriteRule		^prodej			http://www.vinohradska85.cz/pages/sales.php
+RewriteRule		^sales			http://www.vinohradska85.cz/pages/sales_en.php
+RewriteRule		^fotografie		http://www.vinohradska85.cz/pages/photos.php
+RewriteRule		^photos			http://www.vinohradska85.cz/pages/photos_en.php
+RewriteRule		^standardy		http://www.vinohradska85.cz/pages/standards.php
+RewriteRule		^standards		http://www.vinohradska85.cz/pages/standards_en.php
+RewriteRule		^informace		http://www.vinohradska85.cz/pages/info.php
+RewriteRule		^info			http://www.vinohradska85.cz/pages/info_en.php
+RewriteRule		^financovani	http://www.vinohradska85.cz/pages/financing.php
+RewriteRule		^financing		http://www.vinohradska85.cz/pages/financing_en.php
+RewriteRule		^kontakt		http://www.vinohradska85.cz/pages/contact.php
+RewriteRule		^contact		http://www.vinohradska85.cz/pages/contact_en.php
 
-RewriteRule		^en				http://qa.vinohradska85.cz/index_en.php
-#RewriteRule	^/				http://qa.vinohradska85.cz/index.php
+RewriteRule		^en				http://www.vinohradska85.cz/index_en.php
+#RewriteRule	^/				http://www.vinohradska85.cz/index.php
 
